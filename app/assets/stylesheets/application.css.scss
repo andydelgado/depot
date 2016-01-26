@@ -42,10 +42,16 @@
     background: white;
   }
   #side {
+    position: relative;
     float: left;
     padding: 1em 2em;
     width: 13em;
     background: #141;
+    #time {
+      color: white;
+      position: absolute;
+      bottom: 0;
+    }
     ul {
       padding: 0;
 
